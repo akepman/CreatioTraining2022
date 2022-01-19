@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/Kepman/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/Kepman/Data/**" />
+		<Compile Remove="$(PkgPath)/Kepman/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/Kepman/Schemas\**" />
+		<Compile Remove="$(PkgPath)/Kepman/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Kepman/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Kepman/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Kepman/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Kepman/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/Kepman/Resources/**" />
+		<None Remove="$(PkgPath)/Kepman/Assemblies/**" />
+		<None Remove="$(PkgPath)/Kepman/Data/**" />
+		<None Remove="$(PkgPath)/Kepman/SqlScripts/**" />
+		<None Remove="$(PkgPath)/Kepman/Schemas/**" />
+		<None Remove="$(PkgPath)/Kepman/Resources/**" />
+  </ItemGroup>
+</Project>

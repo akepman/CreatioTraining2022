@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "a70b4aa1-220c-8e12-2863-e6c55c80c275",
+    "Name": "Kepman",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1642587688000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/Kepman.csproj",
+    "DependsOn": [
+      {
+        "UId": "d7559847-f38e-410c-baee-6f43bbe80d42",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterpriseSoftkey_ENU"
+      }
+    ]
+  }
+}
